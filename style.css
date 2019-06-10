@@ -1,0 +1,149 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+.header {
+  padding: 80px;
+  text-align: center;
+  background: cadetblue;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.topnav {
+  background-color: darkturquoise;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: cadetblue;
+  color: white;
+}
+.topnav a.active {
+  background-color: gray;
+  color: white;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: cadetblue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 15px
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
+
+.callout-header {
+  padding: 25px 15px;
+  background: #555;
+  font-size: 30px;
+  color: white;
+}
+
+.callout-container {
+  padding: 15px;
+  background-color: #ccc;
+  color: black
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: lightgrey;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+footer {
+  background-color: darkturquoise;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+img {
+  display: block;
+  margin-left: 460px;
+  margin-right: 500px;
+}
